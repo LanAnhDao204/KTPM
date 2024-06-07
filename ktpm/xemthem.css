@@ -1,0 +1,162 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.div{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    padding:0 9%;
+}
+.day{
+    width: 100%;
+}
+.gioithieu{
+    float: left;
+    margin-top: 10px;
+    width: 50%;
+    padding-left: 155px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.huy{
+    width: 50%;
+    float: right;
+    padding-right: 155px;
+    margin-top: 50px;
+    font-size: 20px;
+    /* margin-left: 5px; */
+}
+.gioithieu>h3{
+    color: rgb(230, 102, 123);
+}
+.tieude{
+    margin-top: 80px;
+    margin-left:160px ;
+    color: rgb(216, 62, 88);
+    font-weight: bold;
+    font-size: 23px;
+}
+.products{
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    border: 2px solid black;
+    text-align: center;
+    margin-left:5px ;
+}
+.products .bigimg{
+    width: 100%;
+    height:85%;
+}
+.products .smallimg{
+    /* margin-right: 10px; */
+    display: flex;
+    width: 120px;
+    height: 125px;
+}
+
+.menu, .footer{
+    height: 50px;
+    background-color: rgb(19, 61, 122);
+    box-shadow: 0px 13px 0px rgb(227, 222, 222);
+    width: 100%;
+}
+
+.menu>nav>ul{
+    margin-top: 0px;
+    margin-right:770px;
+    display: flex;
+    list-style: none;
+    height: 50px;
+    padding: 10px;
+
+}
+.menu>nav{
+    display: flex;
+    margin-left: 175px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14268D;
+    /* padding: 10px 20px; */
+}
+.menu>nav a{
+    /* căn giữa menu padding */
+    /* padding: 0 13px; */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+
+}
+.menu>nav>ul>li{
+    font-size: 15px;
+    line-height: 30px;    
+    /* width: 70px; */
+   display: inline;
+   padding-left: 30px
+}
+.menu img{
+    height: 50px;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.giohang{
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.div2{
+    background-color: lightgray;
+    width: 400px;
+    /* height: 160px; */
+}
+
+.div2>ul{
+    padding-left: 30px;
+    font-weight: bold;
+    color: green;
+}
+.div3{
+    /* margin-top: 10px; */
+    background-color: lightgray;
+    width: 400px;
+    /* height: 130px; */
+    margin-top: 10px;
+
+}
+.div3>ul{
+    padding-left: 30px;
+    font-weight: bold;
+    color: green;
+}
+.div3>h3{
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.datcho{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.datcho a{
+    text-decoration: none;
+    color: white;
+
+
+}

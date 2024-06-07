@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14268D;
+    /* padding: 10px 20px; */
+}
+input{
+    width: 40px;
+    height: 50px;
+    margin-right: 30px;
+}
+label{
+    font-size: 20px;
+}
+nav>ul{
+    list-style: none;
+    padding: 0;
+    margin-right: 50px;
+    display: flex;
+}
+
+nav>ul>li {
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    height: 1900px;
+    background-color: #132AAC;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+form input {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.login-btn {
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    margin-top:20px ;
+}
+.login-btn a{
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+}
+.btn{
+    margin-top: 10px;
+}
+.contact-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.contact-info img {
+    margin-right: 10px;
+}

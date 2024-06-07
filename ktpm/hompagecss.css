@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.anh{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.dk a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.dk{
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    
+}
